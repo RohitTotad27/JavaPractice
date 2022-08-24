@@ -4,15 +4,16 @@ import java.util.Scanner;
 
 public class Anagram {
     public static void main(String[] args) {
+        Anagram an= new Anagram();
         System.out.println("Enter the String");
         Scanner scanner = new Scanner(System.in);
         String a = scanner.nextLine();
         System.out.println("Enter the 2nd String");
         String b = scanner.nextLine();
-        System.out.println(isAnagram(a,b));
+        System.out.println(an.isAnagram(a,b));
     }
 
-    private static boolean isAnagram(String a, String b) {
+      boolean isAnagram(String a, String b) {
         if(a.length() != b.length()) return false;
 
         a=a.toLowerCase();
