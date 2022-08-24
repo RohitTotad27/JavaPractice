@@ -1,4 +1,4 @@
-package javapractice.practice.reverse;
+package javapractice.practice.reverseAndpalindrome;
 
 import java.util.Scanner;
 
